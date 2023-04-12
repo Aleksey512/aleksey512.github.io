@@ -5,7 +5,7 @@
 
 > 1. Забрать [репозиторий с Torchserve](https://github.com/Aleksey512/Torchserve)
 >> * С помощью командной строки
->>```commandline
+>>```shell
 >>git clone https://github.com/Aleksey512/Torchserve.git
 >>
 >># Или если есть SSH ключ
