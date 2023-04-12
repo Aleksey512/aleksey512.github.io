@@ -8,7 +8,7 @@
 
 ### **Забрать [репозиторий с Torchserve](https://github.com/Aleksey512/Torchserve)**
 
-С помощью командной строки
+* С помощью командной строки
 
 ```shell
 git clone https://github.com/Aleksey512/Torchserve.git
@@ -35,5 +35,23 @@ git clone git@github.com:Aleksey512/Torchserve.git
 Подробный процесс установки описан на сайте [Microsoft](https://docs.microsoft.com/ru-ru/windows/wsl/install-win10), там же указаны минимальные требования.
 
 Далее устанавливаем сам **[Docker](https://www.docker.com/)**, следуя инструкции на сайте
+
+### Предварительная подготовка
+
+[Скачиваем](https://www.kaggle.com/datasets/boliu0/melanoma-winning-models) и помещаем нашу модель (***9c_b7ns_1e_640_ext_15ep.pth***)
+в папку ***model_dir*** и переименовываем модель в ***model.pth***
+
+### Запуск
+
+1. Запускаем DockerDesktop ![DockerDesktop](img/DockerDesktop.png)
+2. Запускаем PowerShell
+3. Переходим в папку с проектом
+    ```shell
+    cd путь/до/папки/
+    ```
+4. Выполняем команду
+    ```
+    docker compose up --build   
+   ```
 
 ---
