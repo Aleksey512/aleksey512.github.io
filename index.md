@@ -1,9 +1,9 @@
 # Начало
 
-### 🚀 Быстрое начало (Windows)
+## 🚀 Быстрое начало (Windows)
 
 
-1. **Забрать [репозиторий с Torchserve](https://github.com/Aleksey512/Torchserve)**
+### **Забрать [репозиторий с Torchserve](https://github.com/Aleksey512/Torchserve)**
 
 С помощью командной строки
 
@@ -19,7 +19,7 @@ git clone git@github.com:Aleksey512/Torchserve.git
  
 ![Photo](img/screenIDE.png)
 
-2. **Установить [Docker](https://www.docker.com/)**
+### **Установить [Docker](https://www.docker.com/)**
 
 Для него понадобится установить wsl2
  
