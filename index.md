@@ -345,7 +345,7 @@ RUN pip3 install transformers Pillow torchvision geffnet
 # Копируем наш локальный конфиг, в контейнер 
 COPY config.properties /home/model-server/config.properties
 
-# Копируем наш директорию с моделями *.pth/*.pt, в контейнер 
+# Копируем нашу директорию с моделями *.pth/*.pt, в контейнер 
 COPY model_dir /home/model-server/model_dir/
 
 # Дальше я решил архивировать модели непосредственно в контейнере
