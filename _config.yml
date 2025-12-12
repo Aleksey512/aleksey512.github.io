@@ -1,3 +1,33 @@
-theme: minima
-title: Torchserve
-description: Полное описание развертывания моделей с помошью Torchserve
+# GitHub Pages Configuration
+title: Алексей Якунин - Senior Python | Golang Developer
+description: Профессиональный сайт-визитка. 5+ лет опыта в разработке backend-сервисов, микросервисов и инфраструктуры.
+author: Алексей Якунин
+email: yakunina1111@gmail.com
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - parse_resume.py
+  - resume.html
+  - README.md
+  - .git
+  - node_modules
+
+# Include static files
+include:
+  - _pages
+
+# Site settings
+url: https://aleksey512.github.io
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false

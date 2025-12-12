@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Якунин Алексей - Senior Python | Golang Developer. 5+ лет опыта в разработке backend-сервисов, микросервисов и инфраструктуры."
+    />
+    <meta
+      name="keywords"
+      content="Python, Golang, Backend Developer, DevOps, FastAPI, Django, Kubernetes"
+    />
+    <meta name="author" content="Алексей Якунин" />
+    <meta
+      property="og:title"
+      content="Алексей Якунин - Senior Python | Golang Developer"
+    />
+    <meta
+      property="og:description"
+      content="5+ лет опыта в разработке backend-сервисов и инфраструктуры"
+    />
+    <meta property="og:type" content="website" />
+    <title>Алексей Якунин | Senior Python | Golang Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/themes.css" />
+
+    <!-- Favicon (опционально, создайте favicon.ico если нужно) -->
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+      <div class="loader-content">
+        <div class="loader-spinner"></div>
+        <p class="loader-text">Загрузка...</p>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <a href="#home" class="nav-logo">
+            <span class="logo-text">AY</span>
+          </a>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" class="nav-link">Главная</a></li>
+            <li><a href="#about" class="nav-link">Обо мне</a></li>
+            <li><a href="#experience" class="nav-link">Опыт</a></li>
+            <li><a href="#skills" class="nav-link">Навыки</a></li>
+            <li><a href="#education" class="nav-link">Образование</a></li>
+            <li><a href="#contact" class="nav-link">Контакты</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button
+              class="theme-toggle"
+              id="theme-toggle"
+              aria-label="Переключить тему"
+            >
+              <i class="fas fa-moon" id="theme-icon"></i>
+            </button>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Меню">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="hero-gradient"></div>
+        <div class="hero-pattern"></div>
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-image-wrapper">
+            <div class="hero-image">
+              <div class="image-placeholder">
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="hero-badge">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hero-text">
+            <p class="hero-greeting">Привет, я</p>
+            <h1 class="hero-name" id="hero-name">Алексей Якунин</h1>
+            <div class="hero-title-wrapper">
+              <h2 class="hero-title" id="hero-title">
+                Senior Python | Golang Developer
+              </h2>
+            </div>
+            <p class="hero-description" id="hero-description">
+              Разрабатываю и поддерживаю backend-сервисы, микросервисы и
+              инфраструктуру. 5+ лет опыта в проектировании, автоматизации и
+              оптимизации высоконагруженных систем.
+            </p>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number" id="stat-experience">5+</span>
+                <span class="stat-label">лет опыта</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" id="stat-projects">10+</span>
+                <span class="stat-label">проектов</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" id="stat-skills">30+</span>
+                <span class="stat-label">технологий</span>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">
+                <span>Связаться</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="resume.html" class="btn btn-secondary" download>
+                <i class="fas fa-download"></i>
+                <span>Скачать CV</span>
+              </a>
+            </div>
+            <div class="hero-social">
+              <!-- Social links will be inserted here by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Обо мне</span>
+          <h2 class="section-title">Профессиональная история</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description" id="about-text"></p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fas fa-code"></i>
+                <div>
+                  <h3>Backend Development</h3>
+                  <p>Проектирование и разработка масштабируемых сервисов</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-server"></i>
+                <div>
+                  <h3>DevOps & Infrastructure</h3>
+                  <p>Автоматизация CI/CD и управление инфраструктурой</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fas fa-users"></i>
+                <div>
+                  <h3>Менторство</h3>
+                  <p>Развитие команды через код-ревью и обучение</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Опыт работы</span>
+          <h2 class="section-title">Карьера и достижения</h2>
+        </div>
+        <div class="timeline" id="timeline">
+          <!-- Timeline items will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Навыки</span>
+          <h2 class="section-title">Технологии и компетенции</h2>
+        </div>
+        <div class="skills-content" id="skills-content">
+          <!-- Skills will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Образование</span>
+          <h2 class="section-title">Образование и сертификаты</h2>
+        </div>
+        <div class="education-content" id="education-content">
+          <!-- Education items will be inserted here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Контакты</span>
+          <h2 class="section-title">Давайте работать вместе</h2>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <p class="contact-description">
+              Открыт для новых возможностей и интересных проектов. Готов к
+              обсуждению сотрудничества.
+            </p>
+            <div class="contact-items" id="contact-items">
+              <!-- Contact items will be inserted here by JavaScript -->
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Сообщение</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span>Отправить</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>
+            &copy; <span id="current-year">2025</span> Алексей Якунин. Все права
+            защищены.
+          </p>
+          <p class="footer-note">
+            Сделано с <i class="fas fa-heart"></i> и <i class="fas fa-code"></i>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Наверх">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+  </body>
+</html>
